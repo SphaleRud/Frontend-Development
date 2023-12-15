@@ -1,0 +1,15 @@
+body{        
+    size: 1920px 3000px;  
+    background-image: url("/images/background-home.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: top;
+}
+.page-header__nav-link{
+    color: azure;
+    margin: 20px;
+    text-decoration: none;
+    font-size:x-large;
+}
