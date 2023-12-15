@@ -1,6 +1,6 @@
 body{        
     size: 1920px 3000px;  
-    background-image: url("/images/background-home.jpg");
+    background-image: url("../images/background-home.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -17,7 +17,7 @@ body{
     padding-left: 25px;
     max-width: 1438px;
     max-height: 388;
-    background-image: url("/images/Catwalk.png");
+    background-image: url("../images/Catwalk.png");
     background-repeat: no-repeat;
     background-size:auto;
     background-position: bottom right;
@@ -41,7 +41,7 @@ body{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url("/images/header/information.png");
+    background-image: url("../images/header/information.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -57,7 +57,7 @@ body{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url("/images/header/proffesion.png");
+    background-image: url("../images/header/proffesion.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -73,7 +73,7 @@ body{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url("/images/header/history.png");
+    background-image: url("../images/header/history.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -89,7 +89,7 @@ body{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url("/images/header/antoganist.png");
+    background-image: url("../images/header/antoganist.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -99,7 +99,7 @@ body{
 }
 .main-header{
     padding: 25px;
-    background: url("/images/name.png") no-repeat 0 0;
+    background: url("../images/name.png") no-repeat 0 0;
     background-position: center;
 }
 .main-header__title{
@@ -210,7 +210,7 @@ body{
     font-size: 300%;
     font-weight: bold;
     line-height: normal;
-    background: url("/images/footer.png") no-repeat;
+    background: url("../images/footer.png") no-repeat;
     background-size: cover;
     background-clip:border-box;
     padding: 25px;
