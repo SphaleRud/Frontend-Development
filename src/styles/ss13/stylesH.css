@@ -1,6 +1,6 @@
 body{        
     size: 1920px 3000px;  
-    background-image: url("../images/history.png");
+    background-image: url("../../assets/images/ss13/history.png");
     background-color: black;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -38,7 +38,7 @@ body{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url("../images/header/informationR.png");
+    background-image: url("../../assets/images/ss13/header/informationR.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -54,7 +54,7 @@ body{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url("../images/header/proffesion.png");
+    background-image: url("../../assets/images/ss13/header/proffesion.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -70,7 +70,7 @@ body{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url("../images/header/historyG.png");
+    background-image: url("../../assets/images/ss13/header/historyG.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -86,7 +86,7 @@ body{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url("../images/header/antoganist.png");
+    background-image: url("../../assets/images/ss13/header/antoganist.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -106,7 +106,7 @@ body{
 }
 .main-header{
     padding: 25px;
-    background: url("../images/historyBack.png") no-repeat 0 0;
+    background: url("../../assets/images/ss13/historyBack.png") no-repeat 0 0;
     background-position: center;
     background-size: contain;
 }
@@ -212,7 +212,7 @@ body{
     font-size: 36;
     font-weight: bold;
     line-height: normal;
-    background: url("../images/footerH.png") no-repeat;
+    background: url("../../assets/images/ss13/footerH.png") no-repeat;
     background-size: cover;
     background-clip:border-box;
     padding: 25px;

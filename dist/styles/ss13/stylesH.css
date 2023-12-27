@@ -1,11 +1,12 @@
 body{        
     size: 1920px 3000px;  
-    background-image: url("../images/background-home.jpg");
+    background-image: url("../../assets/images/ss13/history.png");
     background-color: black;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: auto;
     background-position: top;
+    margin-bottom: 0;
 }
 .page-header{
     top: 0;
@@ -17,10 +18,6 @@ body{
     padding-left: 25px;
     max-width: 1438px;
     max-height: 388;
-    background-image: url("../images/Catwalk.png");
-    background-repeat: no-repeat;
-    background-size:auto;
-    background-position: bottom right;
     display: flex;
     align-items: center;
 }
@@ -41,7 +38,7 @@ body{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url("../images/header/information.png");
+    background-image: url("../../assets/images/ss13/header/informationR.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -57,7 +54,7 @@ body{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url("../images/header/proffesion.png");
+    background-image: url("../../assets/images/ss13/header/proffesion.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -73,7 +70,7 @@ body{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url("../images/header/history.png");
+    background-image: url("../../assets/images/ss13/header/historyG.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -89,22 +86,33 @@ body{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url("../images/header/antoganist.png");
+    background-image: url("../../assets/images/ss13/header/antoganist.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
 }
-.home{
-    padding-top: 120px;
+.history{
+    padding-top: 212px;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1400px;
+    width: 100%;
 }
 .main-header{
     padding: 25px;
-    background: url("../images/name.png") no-repeat 0 0;
+    background: url("../../assets/images/ss13/historyBack.png") no-repeat 0 0;
     background-position: center;
+    background-size: contain;
 }
 .main-header__title{
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: azure;
     text-align: center;
     text-transform: uppercase;
@@ -112,79 +120,73 @@ body{
     font-size: 220%;
     font-weight: bolder;
     line-height: normal;
+    
 }
-.about{
-    left: 0;
-    padding: 25px;
-    padding-left: 150px;
-    padding-top: 100px;
+.history-container{
+    flex-direction: column;
+    margin-bottom: 220px;
 }
-.about-text{
-    padding-top: 100px;
-    color: azure;
-    display: block;
-    text-align: left;
-    max-width: 800px;
-    font-family: calibri;
-    font-size: 220%;
-    font-weight: bold;
-    line-height: normal;
-    float: left;
-}
-.about-image{
-    float: right;
-}
-.about-image__asteroid{
-    position: relative;
-    animation-name: asteroid;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-}
-@keyframes asteroid{
-    0% {top:50px;bottom: 0px;}
-    50% {top: 0px;bottom:50px;}
-    100% {top:50px;bottom: 0px;}
-}
-.rp{
-    padding: 25px;
-    padding-top: 760px;
-    top: 0;
-    left: 0;
-    padding-left: 150px;
-}
-.rp-text{
-    color: azure;
-    display: block;
-    text-align: left;
-    max-width: 1200px;
-    font-family: calibri;
-    font-size: 350%;
-    font-weight: bold;
-    line-height: normal;
-    -webkit-text-stroke: 2px black;
-}
-.accent{
-    top: 0;
-    right: 0;
+.listing{
+    margin-top: 120px;
     display: flex;
-    justify-content: right;
-    padding: 25px;
-    padding-top: 400px;
-    padding-bottom: 155px;
-    width: 100%;
+    flex-wrap: wrap;
+    gap: 120px 60px;
 }
-.accent-text{
+.listing-card__history{
+    max-width: 400px;
+    width: calc(33.333%-10px);
+}
+.listing-card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    
+}
+.card-history__image{
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgb(36, 36, 36);
+    
+}
+.card-history__image-png{
+    width: 200px;
+    object-fit: cover;
+}
+.card-history__link{
+    text-decoration: none;
+}
+.card-history__title{
+    text-align: center;
     color: azure;
-    text-align: right;
-    max-width: 1200px;
-    padding-right: 150px;
+    font-size: 48px;
     font-family: calibri;
-    font-size: 350%;
     font-weight: bold;
-    line-height: normal;
-    -webkit-text-stroke: 2px black;
 }
-
+.card-history__text{
+    text-align: center;
+    color: azure;
+    font-size: 28px;
+    font-family: calibri;
+}
+#rcorners1 {
+    border-radius: 40px;
+    background: #414141;
+    padding: 20px; 
+    width: 400px;
+    height: 1200px;  
+}
+.card-history__line{
+    width: 355px;
+    height: 5px;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 20px;
+}
 .page-footer{
     left: 0;
     right: 0;
@@ -207,10 +209,10 @@ body{
     text-align: center;
     max-width: 1200px;
     font-family: calibri;
-    font-size: 300%;
+    font-size: 36;
     font-weight: bold;
     line-height: normal;
-    background: url("../images/footer.png") no-repeat;
+    background: url("../../assets/images/ss13/footerH.png") no-repeat;
     background-size: cover;
     background-clip:border-box;
     padding: 25px;
