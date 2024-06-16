@@ -6,7 +6,7 @@
 
 Макет: https://www.figma.com/file/M96ULBcQXFdmyEGzSG0Xsj/junior-frontend-developer-project?node-id=406%3A11990&mode=dev
 
-GitHubIO: https://github.com/mrsnikman/sphalerud.github.io
+GitHubIO: https://github.com/SphaleRud/sphalerud.github.io
 
 # Этапы работы над проектом
 
