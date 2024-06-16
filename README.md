@@ -6,9 +6,9 @@
 
 Макет: https://www.figma.com/file/M96ULBcQXFdmyEGzSG0Xsj/junior-frontend-developer-project?node-id=406%3A11990&mode=dev
 
-GitHubIO: https://github.com/mrsnikman/mrsnikman.github.io
+GitHubIO: https://github.com/mrsnikman/sphalerud.github.io
 
 # Этапы работы над проектом
 
-12.10.2023 - Создание репозитория на GitHub.
-22.12.2023 - Проект был автоматизирован при помощи gulp, с использованием препроцессора less. 
+12.11.2023 - Создание репозитория на GitHub.
+26.12.2023 - Проект был автоматизирован при помощи gulp, с использованием препроцессора less. 
